@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="151" id="KGk-i7-Jjw" customClass="TableViewCellAero" customModule="Multiplica" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="578" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="578" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yi-mH-7Di">
+                        <rect key="frame" x="20" y="30" width="60" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avión" translatesAutoresizingMaskIntoConstraints="NO" id="uut-g4-YEk">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uut-g4-YEk" secondAttribute="bottom" id="CS8-Ga-CNo"/>
+                            <constraint firstItem="uut-g4-YEk" firstAttribute="leading" secondItem="6Yi-mH-7Di" secondAttribute="leading" id="Eh9-DY-a9r"/>
+                            <constraint firstAttribute="height" constant="60" id="M32-Dd-XOK"/>
+                            <constraint firstItem="uut-g4-YEk" firstAttribute="top" secondItem="6Yi-mH-7Di" secondAttribute="top" id="OsP-cn-QMg"/>
+                            <constraint firstAttribute="trailing" secondItem="uut-g4-YEk" secondAttribute="trailing" id="mx4-VW-NHe"/>
+                            <constraint firstAttribute="width" constant="60" id="ycI-aW-zC7"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aeropuerto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCC-uN-9zM">
+                        <rect key="frame" x="90" y="20" width="468" height="24"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igG-GQ-MYj">
+                        <rect key="frame" x="90" y="59" width="72" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distancia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odK-Mq-fhY">
+                        <rect key="frame" x="90" y="90" width="51" height="15"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wCC-uN-9zM" firstAttribute="leading" secondItem="6Yi-mH-7Di" secondAttribute="trailing" constant="10" id="0Ld-z7-GsM"/>
+                    <constraint firstAttribute="bottom" secondItem="odK-Mq-fhY" secondAttribute="bottom" constant="15" id="4q3-iu-s53"/>
+                    <constraint firstItem="wCC-uN-9zM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="5SL-BD-ajB"/>
+                    <constraint firstAttribute="bottom" secondItem="6Yi-mH-7Di" secondAttribute="bottom" constant="30" id="5f1-YT-kGJ"/>
+                    <constraint firstItem="6Yi-mH-7Di" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="GYZ-qs-CfK"/>
+                    <constraint firstItem="igG-GQ-MYj" firstAttribute="top" secondItem="wCC-uN-9zM" secondAttribute="bottom" constant="15" id="TD4-8e-xc1"/>
+                    <constraint firstItem="odK-Mq-fhY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="70" id="UFV-zf-k8j"/>
+                    <constraint firstItem="igG-GQ-MYj" firstAttribute="leading" secondItem="6Yi-mH-7Di" secondAttribute="trailing" constant="10" id="Wsv-fj-bBN"/>
+                    <constraint firstAttribute="trailing" secondItem="wCC-uN-9zM" secondAttribute="trailing" constant="20" id="XiF-dB-aqM"/>
+                    <constraint firstItem="6Yi-mH-7Di" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="kGy-er-yfu"/>
+                    <constraint firstItem="6Yi-mH-7Di" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="yN6-Rj-PzD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aeroImageView" destination="6Yi-mH-7Di" id="gsu-rv-a7H"/>
+                <outlet property="aeropuertoText" destination="wCC-uN-9zM" id="lRv-nM-OcP"/>
+                <outlet property="direccionText" destination="igG-GQ-MYj" id="bni-S9-Jd9"/>
+                <outlet property="distanciaText" destination="odK-Mq-fhY" id="rrO-zA-K7S"/>
+            </connections>
+            <point key="canvasLocation" x="324.63768115942031" y="99.441964285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Avión" width="650" height="650"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gm8-P9-36O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Radio Aeropuertos-->
+        <scene sceneID="CtA-7n-1w7">
+            <objects>
+                <viewController id="8RP-4q-EOf" customClass="RadioAeropuertos" customModule="Multiplica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DGt-AU-lis">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AIRPORT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rj-Tb-PrH">
+                                <rect key="frame" x="20" y="168" width="374" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Fhr-TJ-pRi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="250" translatesAutoresizingMaskIntoConstraints="NO" id="tw8-82-gXF">
+                                <rect key="frame" x="18" y="513" width="378" height="31"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                                <imageReference key="minimumValueImage" image="arrow.backward.circle" catalog="system" symbolScale="small" renderingMode="original"/>
+                                <imageReference key="maximumValueImage" image="arrow.right.circle" catalog="system" symbolScale="small" renderingMode="original"/>
+                                <connections>
+                                    <action selector="sliderKm:" destination="8RP-4q-EOf" eventType="valueChanged" id="EcK-HA-rgU"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foO-0a-EM4">
+                                <rect key="frame" x="20" y="393" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qQg-td-Hwe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distancia en Kilometros" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROP-p3-7nr">
+                                <rect key="frame" x="20" y="548" width="374" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rPn-ST-Fdr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkl-NR-qAh">
+                                <rect key="frame" x="20" y="248" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CMs-vP-RGn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a04-Gy-3Tk">
+                                <rect key="frame" x="20" y="757" width="374" height="60"/>
+                                <color key="backgroundColor" red="0.28189261469340271" green="0.64244950934059553" blue="0.8023638535394122" alpha="0.74621561270992776" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="7wg-6d-UsJ"/>
+                                </constraints>
+                                <state key="normal" title="SEARCH" image="magnifyingglass" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="searchButton:" destination="8RP-4q-EOf" eventType="touchUpInside" id="YJn-s8-olj"/>
+                                    <segue destination="dt5-ru-jhb" kind="show" identifier="" id="Fwq-9D-gbA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ilU-Jz-meV"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="0Rj-Tb-PrH" firstAttribute="top" secondItem="ilU-Jz-meV" secondAttribute="top" constant="80" id="9RC-xu-Qa0"/>
+                            <constraint firstItem="ROP-p3-7nr" firstAttribute="top" secondItem="tw8-82-gXF" secondAttribute="bottom" constant="5" id="A59-8k-2ua"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="a04-Gy-3Tk" secondAttribute="trailing" constant="20" id="BGP-PY-LMj"/>
+                            <constraint firstItem="fkl-NR-qAh" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="CMt-n4-DIu"/>
+                            <constraint firstItem="foO-0a-EM4" firstAttribute="top" secondItem="fkl-NR-qAh" secondAttribute="bottom" constant="95" id="Hbd-4Q-FsN"/>
+                            <constraint firstItem="foO-0a-EM4" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="LJo-AA-g3J"/>
+                            <constraint firstItem="tw8-82-gXF" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="MqU-DV-xma"/>
+                            <constraint firstItem="tw8-82-gXF" firstAttribute="top" secondItem="foO-0a-EM4" secondAttribute="bottom" constant="20" id="VK8-ru-fub"/>
+                            <constraint firstItem="fkl-NR-qAh" firstAttribute="top" secondItem="0Rj-Tb-PrH" secondAttribute="bottom" constant="10" id="Vax-FF-Rki"/>
+                            <constraint firstItem="0Rj-Tb-PrH" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="ZMG-dg-Y0c"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="bottom" secondItem="a04-Gy-3Tk" secondAttribute="bottom" constant="45" id="cLL-6W-Rb3"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="0Rj-Tb-PrH" secondAttribute="trailing" constant="20" id="gFW-76-4te"/>
+                            <constraint firstItem="ROP-p3-7nr" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="kwo-me-sPm"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="foO-0a-EM4" secondAttribute="trailing" constant="20" id="oEy-D9-VsZ"/>
+                            <constraint firstItem="a04-Gy-3Tk" firstAttribute="leading" secondItem="ilU-Jz-meV" secondAttribute="leading" constant="20" id="smW-D8-yze"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="fkl-NR-qAh" secondAttribute="trailing" constant="20" id="wNW-ue-vZb"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="ROP-p3-7nr" secondAttribute="trailing" constant="20" id="wUY-EB-wxj"/>
+                            <constraint firstItem="ilU-Jz-meV" firstAttribute="trailing" secondItem="tw8-82-gXF" secondAttribute="trailing" constant="20" id="wzJ-FW-EdF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LTH-oU-BpC"/>
+                    <connections>
+                        <outlet property="airportText" destination="0Rj-Tb-PrH" id="XlA-8t-hSW"/>
+                        <outlet property="distanciaKilometrosLabel" destination="ROP-p3-7nr" id="EFT-T0-OGP"/>
+                        <outlet property="finderText" destination="fkl-NR-qAh" id="bPX-ls-RFZ"/>
+                        <outlet property="kmLabel" destination="foO-0a-EM4" id="LOc-go-64Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CsO-Vf-pGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660.86956521739137" y="184.82142857142856"/>
+        </scene>
+        <!--Lista de Aeropuertos -->
+        <scene sceneID="9la-5B-R4u">
+            <objects>
+                <viewController id="SN6-Tf-kqt" customClass="TableViewAeropuertos" customModule="Multiplica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qbY-Cj-ACr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZGx-8g-lAF">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JmL-58-w8a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JmL-58-w8a" firstAttribute="trailing" secondItem="ZGx-8g-lAF" secondAttribute="trailing" id="4xC-vZ-723"/>
+                            <constraint firstItem="JmL-58-w8a" firstAttribute="bottom" secondItem="ZGx-8g-lAF" secondAttribute="bottom" id="UiD-Tp-c7d"/>
+                            <constraint firstItem="ZGx-8g-lAF" firstAttribute="leading" secondItem="JmL-58-w8a" secondAttribute="leading" id="fIn-xn-iyn"/>
+                            <constraint firstItem="ZGx-8g-lAF" firstAttribute="top" secondItem="JmL-58-w8a" secondAttribute="top" id="l9q-Y3-q8v"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lista de Aeropuertos " image="list.dash" catalog="system" id="70W-Qb-8Vs"/>
+                    <connections>
+                        <outlet property="aeroTableView" destination="ZGx-8g-lAF" id="NK2-xy-EU2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kFf-wI-Oyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2718.840579710145" y="593.97321428571422"/>
+        </scene>
+        <!--Mapa de Aeropuertos-->
+        <scene sceneID="tPV-kY-fH4">
+            <objects>
+                <viewController id="LjV-L3-rHV" customClass="MapView" customModule="Multiplica" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QfZ-Kr-C3j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lWt-jW-12Z">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="G5G-4L-sRT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="G5G-4L-sRT" firstAttribute="trailing" secondItem="lWt-jW-12Z" secondAttribute="trailing" id="8HH-ae-him"/>
+                            <constraint firstItem="G5G-4L-sRT" firstAttribute="bottom" secondItem="lWt-jW-12Z" secondAttribute="bottom" id="DkG-UY-MfD"/>
+                            <constraint firstItem="lWt-jW-12Z" firstAttribute="leading" secondItem="G5G-4L-sRT" secondAttribute="leading" id="GHp-B7-L9Y"/>
+                            <constraint firstItem="lWt-jW-12Z" firstAttribute="top" secondItem="G5G-4L-sRT" secondAttribute="top" id="qWR-Rr-aqF"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mapa de Aeropuertos" image="map" catalog="system" id="vZF-8E-zts"/>
+                    <connections>
+                        <outlet property="mapView" destination="lWt-jW-12Z" id="qqv-Dg-uJL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbI-fF-KCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2719" y="-148"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="9gR-mg-iKv">
+            <objects>
+                <tabBarController id="dt5-ru-jhb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="FQP-hj-Eot"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3L1-Wt-OI7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LjV-L3-rHV" kind="relationship" relationship="viewControllers" id="PWC-0F-R1X"/>
+                        <segue destination="SN6-Tf-kqt" kind="relationship" relationship="viewControllers" id="Kjc-uq-7w6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6L-sR-Mju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1828" y="185"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B7J-Sf-iHq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gm8-P9-36O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q4T-fX-s8h">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8RP-4q-EOf" kind="relationship" relationship="rootViewController" id="GlL-7I-y6d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sh6-c2-YUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249.27536231884059" y="184.82142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.backward.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.right.circle" catalog="system" width="128" height="121"/>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

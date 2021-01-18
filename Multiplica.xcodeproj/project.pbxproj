@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360EA0346B5E63977944A9FC /* Pods_Multiplica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB7965BD95AAF55BE43543 /* Pods_Multiplica.framework */; };
+		C93E884125B277EA00D2F65A /* TableViewAeropuertos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93E884025B277EA00D2F65A /* TableViewAeropuertos.swift */; };
 		C94766A325B23FCF00F2DA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94766A225B23FCF00F2DA35 /* AppDelegate.swift */; };
 		C94766A525B23FD000F2DA35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94766A425B23FD000F2DA35 /* SceneDelegate.swift */; };
-		C94766A725B23FD000F2DA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94766A625B23FD000F2DA35 /* ViewController.swift */; };
+		C94766A725B23FD000F2DA35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94766A625B23FD000F2DA35 /* MapView.swift */; };
 		C94766AA25B23FD000F2DA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94766A825B23FD000F2DA35 /* Main.storyboard */; };
 		C94766AC25B23FD200F2DA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94766AB25B23FD200F2DA35 /* Assets.xcassets */; };
 		C94766AF25B23FD200F2DA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94766AD25B23FD200F2DA35 /* LaunchScreen.storyboard */; };
+		C94766BC25B2651E00F2DA35 /* RadioAeropuertos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94766BB25B2651E00F2DA35 /* RadioAeropuertos.swift */; };
+		C94F945D25B5159900771BB5 /* AirportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F945C25B5159900771BB5 /* AirportModel.swift */; };
+		C9DF427425B27CEE0006C0D0 /* TableViewCellAero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF427225B27CEE0006C0D0 /* TableViewCellAero.swift */; };
+		C9DF427525B27CEE0006C0D0 /* TableViewCellAero.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DF427325B27CEE0006C0D0 /* TableViewCellAero.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F4EF8987B23B50101981511 /* Pods-Multiplica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiplica.release.xcconfig"; path = "Target Support Files/Pods-Multiplica/Pods-Multiplica.release.xcconfig"; sourceTree = "<group>"; };
+		8FDF694329A6448CEEE621C2 /* Pods-Multiplica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiplica.debug.xcconfig"; path = "Target Support Files/Pods-Multiplica/Pods-Multiplica.debug.xcconfig"; sourceTree = "<group>"; };
+		C93E884025B277EA00D2F65A /* TableViewAeropuertos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAeropuertos.swift; sourceTree = "<group>"; };
 		C947669F25B23FCF00F2DA35 /* Multiplica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiplica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94766A225B23FCF00F2DA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94766A425B23FD000F2DA35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C94766A625B23FD000F2DA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C94766A625B23FD000F2DA35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C94766A925B23FD000F2DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C94766AB25B23FD200F2DA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94766AE25B23FD200F2DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C94766B025B23FD200F2DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94766BB25B2651E00F2DA35 /* RadioAeropuertos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAeropuertos.swift; sourceTree = "<group>"; };
+		C94F945C25B5159900771BB5 /* AirportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportModel.swift; sourceTree = "<group>"; };
+		C9DF427225B27CEE0006C0D0 /* TableViewCellAero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellAero.swift; sourceTree = "<group>"; };
+		C9DF427325B27CEE0006C0D0 /* TableViewCellAero.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellAero.xib; sourceTree = "<group>"; };
+		EDDB7965BD95AAF55BE43543 /* Pods_Multiplica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiplica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360EA0346B5E63977944A9FC /* Pods_Multiplica.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A2A1DEAD27EF0D5C5B04CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDB7965BD95AAF55BE43543 /* Pods_Multiplica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7911692E71969031A23164FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FDF694329A6448CEEE621C2 /* Pods-Multiplica.debug.xcconfig */,
+				5F4EF8987B23B50101981511 /* Pods-Multiplica.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C93E884325B27C7A00D2F65A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C9DF427225B27CEE0006C0D0 /* TableViewCellAero.swift */,
+				C9DF427325B27CEE0006C0D0 /* TableViewCellAero.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C947669625B23FCF00F2DA35 = {
 			isa = PBXGroup;
 			children = (
+				C94F945B25B5158500771BB5 /* Model */,
 				C94766A125B23FCF00F2DA35 /* Multiplica */,
 				C94766A025B23FCF00F2DA35 /* Products */,
+				7911692E71969031A23164FD /* Pods */,
+				06A2A1DEAD27EF0D5C5B04CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,42 @@
 		C94766A125B23FCF00F2DA35 /* Multiplica */ = {
 			isa = PBXGroup;
 			children = (
+				C94766B025B23FD200F2DA35 /* Info.plist */,
 				C94766A225B23FCF00F2DA35 /* AppDelegate.swift */,
 				C94766A425B23FD000F2DA35 /* SceneDelegate.swift */,
-				C94766A625B23FD000F2DA35 /* ViewController.swift */,
+				C93E884325B27C7A00D2F65A /* Cells */,
+				C9AFCF2925B3C72F00BF1F83 /* View Controllers */,
+				C9AFCF2A25B3C78200BF1F83 /* Resources */,
+			);
+			path = Multiplica;
+			sourceTree = "<group>";
+		};
+		C94F945B25B5158500771BB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C94F945C25B5159900771BB5 /* AirportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9AFCF2925B3C72F00BF1F83 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C94766BB25B2651E00F2DA35 /* RadioAeropuertos.swift */,
+				C94766A625B23FD000F2DA35 /* MapView.swift */,
+				C93E884025B277EA00D2F65A /* TableViewAeropuertos.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9AFCF2A25B3C78200BF1F83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				C94766A825B23FD000F2DA35 /* Main.storyboard */,
 				C94766AB25B23FD200F2DA35 /* Assets.xcassets */,
 				C94766AD25B23FD200F2DA35 /* LaunchScreen.storyboard */,
-				C94766B025B23FD200F2DA35 /* Info.plist */,
 			);
-			path = Multiplica;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94766B325B23FD200F2DA35 /* Build configuration list for PBXNativeTarget "Multiplica" */;
 			buildPhases = (
+				E1387FA32C2E523DFA0D3FDE /* [CP] Check Pods Manifest.lock */,
 				C947669B25B23FCF00F2DA35 /* Sources */,
 				C947669C25B23FCF00F2DA35 /* Frameworks */,
 				C947669D25B23FCF00F2DA35 /* Resources */,
+				3A65F3E75F9AA966C8BF42D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DF427525B27CEE0006C0D0 /* TableViewCellAero.xib in Resources */,
 				C94766AF25B23FD200F2DA35 /* LaunchScreen.storyboard in Resources */,
 				C94766AC25B23FD200F2DA35 /* Assets.xcassets in Resources */,
 				C94766AA25B23FD000F2DA35 /* Main.storyboard in Resources */,
@@ -132,14 +206,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A65F3E75F9AA966C8BF42D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiplica/Pods-Multiplica-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiplica/Pods-Multiplica-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multiplica/Pods-Multiplica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1387FA32C2E523DFA0D3FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiplica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C947669B25B23FCF00F2DA35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C94766A725B23FD000F2DA35 /* ViewController.swift in Sources */,
+				C9DF427425B27CEE0006C0D0 /* TableViewCellAero.swift in Sources */,
+				C94766A725B23FD000F2DA35 /* MapView.swift in Sources */,
+				C94766BC25B2651E00F2DA35 /* RadioAeropuertos.swift in Sources */,
 				C94766A325B23FCF00F2DA35 /* AppDelegate.swift in Sources */,
 				C94766A525B23FD000F2DA35 /* SceneDelegate.swift in Sources */,
+				C94F945D25B5159900771BB5 /* AirportModel.swift in Sources */,
+				C93E884125B277EA00D2F65A /* TableViewAeropuertos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +403,7 @@
 		};
 		C94766B425B23FD200F2DA35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDF694329A6448CEEE621C2 /* Pods-Multiplica.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +423,7 @@
 		};
 		C94766B525B23FD200F2DA35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4EF8987B23B50101981511 /* Pods-Multiplica.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
